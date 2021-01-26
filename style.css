@@ -1,0 +1,49 @@
+* {
+    box-sizing: border-box;
+  }
+@media (max-width:300px){
+  body{ 
+    background:red; 
+}
+#large{
+    display: block;
+    visibility: hidden;
+}
+#medium{
+    display: block;
+    visibility: hidden;
+}
+}
+
+@media (min-width:768px) {
+body{
+    background-color: green;
+  
+}
+#small{
+    display: block;
+    visibility:hidden;
+}
+#large{
+    display: block;
+    visibility: hidden;
+}
+}
+@media (min-width:992px) {
+    body{
+        background-color:blue;
+        
+    }
+    #small{
+        display: block;
+        visibility:hidden;
+    }
+   
+    #large{
+        display: block;
+        visibility: visible;
+    }
+}
+body p{
+ font-size: 5vw;
+}
