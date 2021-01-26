@@ -1,9 +1,10 @@
 * {
     box-sizing: border-box;
   }
-@media (max-width:300px){
+@media only screen and (max-width:300px){
   body{ 
     background:red; 
+    font-size:5vw ;
 }
 #large{
     display: block;
@@ -18,10 +19,10 @@
 @media (min-width:768px) {
 body{
     background-color: green;
-  
+    font-size:5vw ;
 }
 #small{
-    display: block;
+    display:none;
     visibility:hidden;
 }
 #large{
@@ -35,13 +36,18 @@ body{
         
     }
     #small{
-        display: block;
+        display:none;
         visibility:hidden;
     }
    
     #large{
         display: block;
         visibility: visible;
+        font-size:5vw ;
+    }
+    #medium{
+        display:none;
+        visibility: hidden;
     }
 }
 body p{
